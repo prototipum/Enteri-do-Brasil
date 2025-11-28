@@ -63,7 +63,7 @@ margin-top: -87px;
 }
 .banner_title {
 font-family: "Poppins", sans-serif;
-background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+background: linear-gradient(90deg, #ececec 0%, #ffffff 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
