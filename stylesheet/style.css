@@ -96,7 +96,8 @@ content: '';
 display: block;
 width: 200px;
 height: 215px;
-background: #A9EE83;
+background: #FFF;
+box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
 position: absolute;
 z-index: -500;
 top: -22px;
@@ -133,10 +134,12 @@ max-width: 906px;
 margin-top: 160px;
 }
 .footer {
-background: #88C980;
+background: #1C1C1C;
 margin-top: 500px;
 padding-top: 91px;
+color: #FFF;
 display: flex;
+padding-bottom: 112px;
 justify-content: space-between;
 }
 .right_div_footer {
