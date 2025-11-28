@@ -105,7 +105,7 @@ border-radius: 1px;
 left: -30px;
 }
 .title_block_content {
-color: #656B62;
+color: #000;
 line-height: 1.5;
 max-width: 220px;
 font-size: 1.125rem;
@@ -156,6 +156,14 @@ font-weight: 400;
 .right_div_footer img {
 margin-bottom: 26px;
 }
+.header_fixed {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 750;
+animation: top 0.3s ease-in-out;
+}
 @media screen and (max-width: 557px) {
 /* small phones */
     html {
@@ -163,6 +171,9 @@ margin-bottom: 26px;
     }
     .container {
     padding: 0 12px;
+    }
+    .footer {
+    padding-top: 91px;
     }
     .blocks_content {
     flex-direction: column;
