@@ -61,6 +61,15 @@ text-decoration: underline;
 max-width: 1287px;
 margin-top: -87px;
 }
+.holder_menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 26px;
+}
+.link_about {
+color: #FFF;
+}
 .banner_title {
 font-family: "Poppins", sans-serif;
 background: linear-gradient(90deg, #ececec 0%, #ffffff 100%);
@@ -189,6 +198,9 @@ animation: opacity_fadein 0.2s ease-in-out;
     }
     .blocks_content {
     flex-direction: column;
+    }
+    .holder_menu {
+    gap: 1rem;
     }
 }
 @media screen and (max-width: 768px) and (min-width: 557px) {
