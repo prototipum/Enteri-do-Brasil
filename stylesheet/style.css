@@ -63,7 +63,11 @@ margin-top: -87px;
 }
 .banner_title {
 font-family: "Poppins", sans-serif;
-color: #FAFAF7;
+background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* color: #FAFAF7; */
 font-weight: 400;
 line-height: 1.2;
 font-size: 2.625rem;
@@ -97,7 +101,7 @@ display: block;
 width: 200px;
 height: 215px;
 background: #FFF;
-box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+box-shadow: 3px 3px 4px rgba(159, 168, 154, 0.25);
 position: absolute;
 z-index: -500;
 top: -22px;
@@ -117,7 +121,7 @@ padding-bottom: 200px;
 }
 button {
 color: #FFF;
-background: #88C980;
+background: #9FA89A;
 padding: 8px 16px;
 cursor: pointer;
 margin-top: 91px;
