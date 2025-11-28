@@ -12,7 +12,7 @@ padding: 0;
 padding: 0 26px;
 }
 .header {
-background: #FAFAF7;
+background: #88C980;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -31,7 +31,6 @@ font-family: "Lato", "Helvetica", sans-serif;
 color: #2E2E2E;
 background-color: #FAFAF7;
 margin: 0;
-padding-bottom: 600px;
 }
 img {
 display: block;
@@ -77,10 +76,10 @@ padding-top: 40px;
 .text_title_common {
 padding-top: 63px;
 font-family: "Inter", sans-serif;
-color: #4C4C4C;
+color: #2E2E2E;
 }
 .text_common {
-color: #2E2E2E;
+color: #656B62;
 max-width: 702px;
 padding-top: 66px;
 }
@@ -97,7 +96,7 @@ content: '';
 display: block;
 width: 200px;
 height: 215px;
-background: #E6E8E3;
+background: #C4E6A2;
 position: absolute;
 z-index: -500;
 top: -22px;
@@ -105,7 +104,7 @@ border-radius: 1px;
 left: -30px;
 }
 .title_block_content {
-color: #2E2E2E;
+color: #656B62;
 line-height: 1.5;
 max-width: 220px;
 font-size: 1.125rem;
@@ -117,7 +116,7 @@ padding-bottom: 200px;
 }
 button {
 color: #FFF;
-background: #2E7D32;
+background: #88C980;
 padding: 8px 16px;
 cursor: pointer;
 margin-top: 91px;
@@ -132,6 +131,10 @@ line-height: 1.1;
 font-family: "Lato", sans-serif;
 max-width: 906px;
 margin-top: 160px;
+}
+.footer {
+background: #88C980;
+margin-top: 500px;
 }
 @media screen and (max-width: 557px) {
 /* small phones */
