@@ -96,7 +96,7 @@ content: '';
 display: block;
 width: 200px;
 height: 215px;
-background: #C4E6A2;
+background: #A9EE83;
 position: absolute;
 z-index: -500;
 top: -22px;
@@ -135,6 +135,23 @@ margin-top: 160px;
 .footer {
 background: #88C980;
 margin-top: 500px;
+padding-top: 91px;
+display: flex;
+justify-content: space-between;
+}
+.right_div_footer {
+display: flex;
+flex-direction: column;
+}
+.right_div_footer span {
+color: #FFF;
+margin-bottom: 68px;
+text-align: right;
+font-size: 1.125rem;
+font-weight: 400;
+}
+.right_div_footer img {
+margin-bottom: 26px;
 }
 @media screen and (max-width: 557px) {
 /* small phones */
